@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  LazyGenreStackView.swift
 //  SwiftUILayouts
 //
 //  Created by bogdanov on 22.06.21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct LazyGenreStackView: View {
     @State private var selectedGenre = Genre.list.first
 
     var body: some View {
@@ -106,6 +106,6 @@ private extension Genre.Subgenre {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LazyGenreStackView()
     }
 }

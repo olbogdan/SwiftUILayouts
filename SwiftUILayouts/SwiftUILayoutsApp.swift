@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUILayoutsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LazyGenreStackView()
         }
     }
 }

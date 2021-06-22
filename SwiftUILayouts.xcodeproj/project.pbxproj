@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		688893A9268145EF00024D32 /* SwiftUILayoutsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688893A8268145EF00024D32 /* SwiftUILayoutsApp.swift */; };
-		688893AB268145EF00024D32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688893AA268145EF00024D32 /* ContentView.swift */; };
+		688893AB268145EF00024D32 /* LazyGenreStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688893AA268145EF00024D32 /* LazyGenreStackView.swift */; };
 		688893AD268145F200024D32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 688893AC268145F200024D32 /* Assets.xcassets */; };
 		688893B0268145F200024D32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 688893AF268145F200024D32 /* Preview Assets.xcassets */; };
 		688893B82681489600024D32 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688893B72681489600024D32 /* Genre.swift */; };
@@ -22,7 +22,7 @@
 /* Begin PBXFileReference section */
 		688893A5268145EF00024D32 /* SwiftUILayouts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILayouts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		688893A8268145EF00024D32 /* SwiftUILayoutsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILayoutsApp.swift; sourceTree = "<group>"; };
-		688893AA268145EF00024D32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		688893AA268145EF00024D32 /* LazyGenreStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGenreStackView.swift; sourceTree = "<group>"; };
 		688893AC268145F200024D32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		688893AF268145F200024D32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		688893B1268145F200024D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 			children = (
 				688893B92681499500024D32 /* extension */,
 				688893A8268145EF00024D32 /* SwiftUILayoutsApp.swift */,
-				688893AA268145EF00024D32 /* ContentView.swift */,
+				688893AA268145EF00024D32 /* LazyGenreStackView.swift */,
 				688893AC268145F200024D32 /* Assets.xcassets */,
 				688893B1268145F200024D32 /* Info.plist */,
 				688893AE268145F200024D32 /* Preview Content */,
@@ -169,7 +169,7 @@
 				688893BD268149E500024D32 /* SIMD3.swift in Sources */,
 				688893BB268149AA00024D32 /* Color.swift in Sources */,
 				688893C126814A1F00024D32 /* Hashable.swift in Sources */,
-				688893AB268145EF00024D32 /* ContentView.swift in Sources */,
+				688893AB268145EF00024D32 /* LazyGenreStackView.swift in Sources */,
 				688893A9268145EF00024D32 /* SwiftUILayoutsApp.swift in Sources */,
 				688893BF26814A0100024D32 /* BlurView.swift in Sources */,
 			);
