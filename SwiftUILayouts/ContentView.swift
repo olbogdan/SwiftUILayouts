@@ -14,11 +14,9 @@ struct ContentView: View {
         NavigationView {
             ScrollView {
                 ScrollViewReader { proxy in
-                    LazyVStack {
-                        ForEach(Genre.list) { genre in
-                            Subgenres(genre: genre)
-                                .id(genre)
-                        }
+                    ForEach(Genre.list) { genre in
+                        Subgenres(genre: genre)
+                            .id(genre)
                     }
                     .onChange(of: selectedGenre) { genre in
                         withAnimation {
@@ -49,17 +47,27 @@ struct Subgenres: View {
     private let horizontalPadding: CGFloat = 40
 
     var body: some View {
-        VStack(alignment: .leading) {
-            Text(genre.name)
-                .fontWeight(.heavy)
-                .padding(.top, 16)
-                .padding(.leading, horizontalPadding)
-
-            ScrollView(.horizontal, showsIndicators: false) {
-                LazyHStack(spacing: 20) {
-                    ForEach(genre.subgenres, content: \.view)
-                }.padding(.leading, horizontalPadding)
+        Section(header: genre.header
+            ) {
+            VStack(alignment: .leading) {
+                ScrollView(.horizontal, showsIndicators: false) {
+                    LazyHStack(spacing: 20) {
+                        ForEach(genre.subgenres, content: \.view)
+                    }.padding(.leading, horizontalPadding)
+                }
             }
+        }
+    }
+}
+
+private extension Genre {
+    var header: some SwiftUI.View {
+        HStack {
+            Text(name)
+                .font(.title2)
+                .padding(.leading)
+                .padding(.vertical, 8)
+            Spacer()
         }
     }
 }
