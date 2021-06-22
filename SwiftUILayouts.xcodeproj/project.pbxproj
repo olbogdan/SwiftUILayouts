@@ -11,6 +11,7 @@
 		688893AB268145EF00024D32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688893AA268145EF00024D32 /* ContentView.swift */; };
 		688893AD268145F200024D32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 688893AC268145F200024D32 /* Assets.xcassets */; };
 		688893B0268145F200024D32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 688893AF268145F200024D32 /* Preview Assets.xcassets */; };
+		688893B82681489600024D32 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688893B72681489600024D32 /* Genre.swift */; };
 		688893BB268149AA00024D32 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688893BA268149AA00024D32 /* Color.swift */; };
 		688893BD268149E500024D32 /* SIMD3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688893BC268149E500024D32 /* SIMD3.swift */; };
 		688893BF26814A0100024D32 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688893BE26814A0100024D32 /* BlurView.swift */; };
@@ -25,6 +26,7 @@
 		688893AC268145F200024D32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		688893AF268145F200024D32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		688893B1268145F200024D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		688893B72681489600024D32 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
 		688893BA268149AA00024D32 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		688893BC268149E500024D32 /* SIMD3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIMD3.swift; sourceTree = "<group>"; };
 		688893BE26814A0100024D32 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				688893AC268145F200024D32 /* Assets.xcassets */,
 				688893B1268145F200024D32 /* Info.plist */,
 				688893AE268145F200024D32 /* Preview Content */,
+				688893B72681489600024D32 /* Genre.swift */,
 			);
 			path = SwiftUILayouts;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				688893B82681489600024D32 /* Genre.swift in Sources */,
 				688893C326814A5400024D32 /* UIViewRepresentable.swift in Sources */,
 				688893BD268149E500024D32 /* SIMD3.swift in Sources */,
 				688893BB268149AA00024D32 /* Color.swift in Sources */,
