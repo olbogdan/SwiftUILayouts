@@ -8,9 +8,91 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selectedGenre = Genre.list.first
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            ScrollView {
+                ScrollViewReader { proxy in
+                    LazyVStack {
+                        ForEach(Genre.list) { genre in
+                            Subgenres(genre: genre)
+                                .id(genre)
+                        }
+                    }
+                    .onChange(of: selectedGenre) { genre in
+                        withAnimation {
+                            proxy.scrollTo(genre, anchor: .top)
+                        }
+                        selectedGenre = nil
+                    }
+                }
+            }
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem {
+                    Menu("Genre") {
+                        ForEach(Genre.list) { genre in
+                            Button(genre.name) {
+                                selectedGenre = genre
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+struct Subgenres: View {
+    let genre: Genre
+    private let horizontalPadding: CGFloat = 40
+
+    var body: some View {
+        VStack(alignment: .leading) {
+            Text(genre.name)
+                .fontWeight(.heavy)
+                .padding(.top, 16)
+                .padding(.leading, horizontalPadding)
+
+            ScrollView(.horizontal, showsIndicators: false) {
+                LazyHStack(spacing: 20) {
+                    ForEach(genre.subgenres, content: \.view)
+                }.padding(.leading, horizontalPadding)
+            }
+        }
+    }
+}
+
+private extension Genre.Subgenre {
+    var view: some View {
+        RoundedRectangle(cornerRadius: 8)
+            .fill(
+                LinearGradient(
+                    gradient: .init(
+                        colors: AnyIterator {}.prefix(2).map {
+                            .random(saturation: 2 / 3, value: 0.85)
+                        }
+                    ),
+                    startPoint: .topLeading, endPoint: .bottomTrailing
+                )
+            )
+            .frame(width: 125, height: 125)
+            .overlay(
+                Image("\(Int.random(in: 1 ... 92))")
+                    .resizable()
+                    .saturation(0)
+                    .blendMode(.multiply)
+                    .scaledToFit()
+            )
+            .overlay(
+                Text(name)
+                    .foregroundColor(.white)
+                    .fontWeight(.bold)
+                    .padding(10)
+                    .frame(alignment: .bottomLeading),
+                alignment: .bottomLeading
+            )
     }
 }
 
