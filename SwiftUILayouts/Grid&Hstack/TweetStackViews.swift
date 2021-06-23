@@ -13,7 +13,7 @@ struct TweetStackViews: View {
 
         return HStack(alignment: .top) {
             VStack {
-                Image("RW")
+                Image("olek")
                     .resizable()
                     .frame(width: 90, height: 90)
                     .cornerRadius(cornerRadius)
@@ -32,12 +32,12 @@ struct TweetStackViews: View {
                     .clipShape(Capsule())
             }
             VStack(alignment: .leading) {
-                Text("raywenderlich.com")
+                Text("oleksandr.com")
                     .font(.headline)
                     .foregroundColor(.white)
 
                 HStack(alignment: .lastTextBaseline) {
-                    Text("@rwenderlich")
+                    Text("@bogdanov")
                         .font(.subheadline)
                         .foregroundColor(.white)
 
@@ -50,9 +50,7 @@ struct TweetStackViews: View {
                 }
 
                 Text(
-                    "We are a friendly and supportive community of mobile developers. "
-                        + "We love to learn and share our knowledge with the world! "
-                        + "raywenderlich.com"
+                    "This week we will talk about another great tool that we have in SwiftUI. The alignment guide is a way that we can use to speak to SwiftUI’s layout system. By using alignment guides, we can easily align views that live in different parts of a view hierarchy."
                 )
                 .padding(.top, 5)
                 .lineSpacing(-.infinity)

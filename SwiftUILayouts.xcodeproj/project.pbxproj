@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68755E8F2683BDEF00592F7F /* ZStackGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68755E8E2683BDEF00592F7F /* ZStackGradient.swift */; };
 		688893A9268145EF00024D32 /* SwiftUILayoutsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688893A8268145EF00024D32 /* SwiftUILayoutsApp.swift */; };
 		688893AB268145EF00024D32 /* LazyGenreStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688893AA268145EF00024D32 /* LazyGenreStackView.swift */; };
 		688893AD268145F200024D32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 688893AC268145F200024D32 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		68755E8E2683BDEF00592F7F /* ZStackGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackGradient.swift; sourceTree = "<group>"; };
 		688893A5268145EF00024D32 /* SwiftUILayouts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILayouts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		688893A8268145EF00024D32 /* SwiftUILayoutsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILayoutsApp.swift; sourceTree = "<group>"; };
 		688893AA268145EF00024D32 /* LazyGenreStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGenreStackView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				688893B1268145F200024D32 /* Info.plist */,
 				688893AE268145F200024D32 /* Preview Content */,
 				68755E8C2683B57A00592F7F /* RlationalAlignments */,
+				68755E8E2683BDEF00592F7F /* ZStackGradient.swift */,
 			);
 			path = SwiftUILayouts;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				688893BF26814A0100024D32 /* BlurView.swift in Sources */,
 				688893CC26838ACD00024D32 /* Razémon.swift in Sources */,
 				688893CA26838A9500024D32 /* SingleAxisAlignmentID.swift in Sources */,
+				68755E8F2683BDEF00592F7F /* ZStackGradient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
