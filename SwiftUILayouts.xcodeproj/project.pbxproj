@@ -58,10 +58,22 @@
 		68755E8C2683B57A00592F7F /* RlationalAlignments */ = {
 			isa = PBXGroup;
 			children = (
+				688893CB26838ACD00024D32 /* Razémon.swift */,
 				688893C926838A9500024D32 /* SingleAxisAlignmentID.swift */,
 				688893CD26838B7F00024D32 /* AligningViews.swift */,
 			);
 			path = RlationalAlignments;
+			sourceTree = "<group>";
+		};
+		68755E8D2683B6CB00592F7F /* Grid&Hstack */ = {
+			isa = PBXGroup;
+			children = (
+				688893AA268145EF00024D32 /* LazyGenreStackView.swift */,
+				688893B72681489600024D32 /* Genre.swift */,
+				688893C42682749A00024D32 /* SubgenreGreedView.swift */,
+				688893C626836F9700024D32 /* TweetStackViews.swift */,
+			);
+			path = "Grid&Hstack";
 			sourceTree = "<group>";
 		};
 		6888939C268145EF00024D32 = {
@@ -85,14 +97,10 @@
 			children = (
 				688893B92681499500024D32 /* extension */,
 				688893A8268145EF00024D32 /* SwiftUILayoutsApp.swift */,
-				688893AA268145EF00024D32 /* LazyGenreStackView.swift */,
+				68755E8D2683B6CB00592F7F /* Grid&Hstack */,
 				688893AC268145F200024D32 /* Assets.xcassets */,
 				688893B1268145F200024D32 /* Info.plist */,
 				688893AE268145F200024D32 /* Preview Content */,
-				688893B72681489600024D32 /* Genre.swift */,
-				688893C42682749A00024D32 /* SubgenreGreedView.swift */,
-				688893C626836F9700024D32 /* TweetStackViews.swift */,
-				688893CB26838ACD00024D32 /* Razémon.swift */,
 				68755E8C2683B57A00592F7F /* RlationalAlignments */,
 			);
 			path = SwiftUILayouts;
