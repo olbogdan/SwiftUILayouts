@@ -18,6 +18,7 @@
 		688893C126814A1F00024D32 /* Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688893C026814A1F00024D32 /* Hashable.swift */; };
 		688893C326814A5400024D32 /* UIViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688893C226814A5400024D32 /* UIViewRepresentable.swift */; };
 		688893C52682749A00024D32 /* SubgenreGreedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688893C42682749A00024D32 /* SubgenreGreedView.swift */; };
+		688893C726836F9700024D32 /* TweetStackViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688893C626836F9700024D32 /* TweetStackViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		688893C026814A1F00024D32 /* Hashable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hashable.swift; sourceTree = "<group>"; };
 		688893C226814A5400024D32 /* UIViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentable.swift; sourceTree = "<group>"; };
 		688893C42682749A00024D32 /* SubgenreGreedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubgenreGreedView.swift; sourceTree = "<group>"; };
+		688893C626836F9700024D32 /* TweetStackViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetStackViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				688893AE268145F200024D32 /* Preview Content */,
 				688893B72681489600024D32 /* Genre.swift */,
 				688893C42682749A00024D32 /* SubgenreGreedView.swift */,
+				688893C626836F9700024D32 /* TweetStackViews.swift */,
 			);
 			path = SwiftUILayouts;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				688893B82681489600024D32 /* Genre.swift in Sources */,
+				688893C726836F9700024D32 /* TweetStackViews.swift in Sources */,
 				688893C326814A5400024D32 /* UIViewRepresentable.swift in Sources */,
 				688893C52682749A00024D32 /* SubgenreGreedView.swift in Sources */,
 				688893BD268149E500024D32 /* SIMD3.swift in Sources */,
