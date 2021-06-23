@@ -19,6 +19,9 @@
 		688893C326814A5400024D32 /* UIViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688893C226814A5400024D32 /* UIViewRepresentable.swift */; };
 		688893C52682749A00024D32 /* SubgenreGreedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688893C42682749A00024D32 /* SubgenreGreedView.swift */; };
 		688893C726836F9700024D32 /* TweetStackViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688893C626836F9700024D32 /* TweetStackViews.swift */; };
+		688893CA26838A9500024D32 /* SingleAxisAlignmentID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688893C926838A9500024D32 /* SingleAxisAlignmentID.swift */; };
+		688893CC26838ACD00024D32 /* Razémon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688893CB26838ACD00024D32 /* Razémon.swift */; };
+		688893CE26838B7F00024D32 /* AligningViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688893CD26838B7F00024D32 /* AligningViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		688893C226814A5400024D32 /* UIViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentable.swift; sourceTree = "<group>"; };
 		688893C42682749A00024D32 /* SubgenreGreedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubgenreGreedView.swift; sourceTree = "<group>"; };
 		688893C626836F9700024D32 /* TweetStackViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetStackViews.swift; sourceTree = "<group>"; };
+		688893C926838A9500024D32 /* SingleAxisAlignmentID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleAxisAlignmentID.swift; sourceTree = "<group>"; };
+		688893CB26838ACD00024D32 /* Razémon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Razémon.swift"; sourceTree = "<group>"; };
+		688893CD26838B7F00024D32 /* AligningViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AligningViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68755E8C2683B57A00592F7F /* RlationalAlignments */ = {
+			isa = PBXGroup;
+			children = (
+				688893C926838A9500024D32 /* SingleAxisAlignmentID.swift */,
+				688893CD26838B7F00024D32 /* AligningViews.swift */,
+			);
+			path = RlationalAlignments;
+			sourceTree = "<group>";
+		};
 		6888939C268145EF00024D32 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +92,8 @@
 				688893B72681489600024D32 /* Genre.swift */,
 				688893C42682749A00024D32 /* SubgenreGreedView.swift */,
 				688893C626836F9700024D32 /* TweetStackViews.swift */,
+				688893CB26838ACD00024D32 /* Razémon.swift */,
+				68755E8C2683B57A00592F7F /* RlationalAlignments */,
 			);
 			path = SwiftUILayouts;
 			sourceTree = "<group>";
@@ -175,11 +192,14 @@
 				688893C326814A5400024D32 /* UIViewRepresentable.swift in Sources */,
 				688893C52682749A00024D32 /* SubgenreGreedView.swift in Sources */,
 				688893BD268149E500024D32 /* SIMD3.swift in Sources */,
+				688893CE26838B7F00024D32 /* AligningViews.swift in Sources */,
 				688893BB268149AA00024D32 /* Color.swift in Sources */,
 				688893C126814A1F00024D32 /* Hashable.swift in Sources */,
 				688893AB268145EF00024D32 /* LazyGenreStackView.swift in Sources */,
 				688893A9268145EF00024D32 /* SwiftUILayoutsApp.swift in Sources */,
 				688893BF26814A0100024D32 /* BlurView.swift in Sources */,
+				688893CC26838ACD00024D32 /* Razémon.swift in Sources */,
+				688893CA26838A9500024D32 /* SingleAxisAlignmentID.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
