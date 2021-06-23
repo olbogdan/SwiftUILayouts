@@ -17,6 +17,7 @@
 		688893BF26814A0100024D32 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688893BE26814A0100024D32 /* BlurView.swift */; };
 		688893C126814A1F00024D32 /* Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688893C026814A1F00024D32 /* Hashable.swift */; };
 		688893C326814A5400024D32 /* UIViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688893C226814A5400024D32 /* UIViewRepresentable.swift */; };
+		688893C52682749A00024D32 /* SubgenreGreedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688893C42682749A00024D32 /* SubgenreGreedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		688893BE26814A0100024D32 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		688893C026814A1F00024D32 /* Hashable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hashable.swift; sourceTree = "<group>"; };
 		688893C226814A5400024D32 /* UIViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentable.swift; sourceTree = "<group>"; };
+		688893C42682749A00024D32 /* SubgenreGreedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubgenreGreedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				688893B1268145F200024D32 /* Info.plist */,
 				688893AE268145F200024D32 /* Preview Content */,
 				688893B72681489600024D32 /* Genre.swift */,
+				688893C42682749A00024D32 /* SubgenreGreedView.swift */,
 			);
 			path = SwiftUILayouts;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			files = (
 				688893B82681489600024D32 /* Genre.swift in Sources */,
 				688893C326814A5400024D32 /* UIViewRepresentable.swift in Sources */,
+				688893C52682749A00024D32 /* SubgenreGreedView.swift in Sources */,
 				688893BD268149E500024D32 /* SIMD3.swift in Sources */,
 				688893BB268149AA00024D32 /* Color.swift in Sources */,
 				688893C126814A1F00024D32 /* Hashable.swift in Sources */,
